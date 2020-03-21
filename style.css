@@ -6,6 +6,7 @@
 input{
     position: relative;
     z-index: 1;
+   
 }
 #other-cheap-tickets, #cheapest-ticket{
     display: none;

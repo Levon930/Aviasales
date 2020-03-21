@@ -221,7 +221,7 @@ formSearch.addEventListener('submit', (event) => {
     }
     if (formData.from === undefined || formData.to === undefined) {
         console.log('er')
-        const tik = createeror('<h3>Введите коректно название города</h3>');
+        const tik = createeror('<h3>Введите корректно название города</h3>');
         otherCheapTickets.innerHTML = '';
         otherCheapTickets.append(tik);
 
@@ -232,7 +232,7 @@ formSearch.addEventListener('submit', (event) => {
             renderCheap(response, formData.when);
         }, () => {
 
-            const tik = createeror('<h3>Токого направления нету</h3>');
+            const tik = createeror('<h3>Такого направления нету</h3>');
             otherCheapTickets.innerHTML = '';
             otherCheapTickets.append(tik);
 
