@@ -1,4 +1,8 @@
-//ДОМ обекты 
+
+
+/**
+ * Create by Levon Harutyunyan 25.01.2020
+ */
 const formSearch = document.querySelector(".form-search"),
     inputCitiesFrom = formSearch.querySelector(".input__cities-from"),
     dropdownCitiesFrom = formSearch.querySelector(".dropdown__cities-from"),
@@ -7,7 +11,7 @@ const formSearch = document.querySelector(".form-search"),
     inputDateDepart = formSearch.querySelector(".input__date-depart"),
     cheapestTicket = document.getElementById('cheapest-ticket'),
     otherCheapTickets = document.getElementById('other-cheap-tickets');
-//силки на даты
+
 const cityesApi = 'Data/cities.json',
     proxy = ' https://cors-anywhere.herokuapp.com/',
     APY_KEY = 'be89f1280b6177f28fd06effe1a6dddb',
